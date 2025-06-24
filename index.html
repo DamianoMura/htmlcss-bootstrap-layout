@@ -10,8 +10,9 @@
       crossorigin="anonymous">
     <title>Bootstrap layout</title>
   </head>
+
   <body>
-    <header class="pt-5 pb-5">
+    <header class="mt-5">
       <div class="container-fluid">
         <div class="row">
           <div class="col">
@@ -27,29 +28,70 @@
       </div>
     </header>
     <main>
-      <div class="container px-5">
+      <div class="container px-3">
 
         <!--                 Row 1 
          -->
-        <div class="row g-0">
-          <div class="col-12 col-sm-6 col-lg-4 ">
-            <div class="bg-light p-4 h-100">
-              <h3>Colonna 1</h3>
-              <p>Larghezza intera su
-                dispositivi piccoli, metà lunghezza su
-                dispositivi medi e un terzo su dispositivi grandi</p>
+        <div class="mt-5">
+          <div class="row g-0">
+            <div class="col-12 col-sm-6 col-lg-4 ">
+              <div class="bg-light p-4 h-100">
+                <h3>Colonna 1</h3>
+                <p>Larghezza intera su
+                  dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e un terzo su dispositivi grandi
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-8 ">
+              <div class="bg-secondary text-white p-4 h-100">
+                <h3>Colonna 2</h3>
+                <p>Larghezza intera su
+                  dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e due terzi su dispositivi grandi
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-8 ">
-            <div class="bg-secondary text-white p-4 h-100">
-              <h3>Colonna 2</h3>
-              <p>Larghezza intera su
-                dispositivi piccoli, metà lunghezza su
-                dispositivi medi e due terzi su dispositivi grandi</p>
-            </div>
-          </div>
-
         </div>
+
+        <!--                     /Row 1
+        *                         Row 2 
+         -->
+        <div class="mt-5">
+          <div class="row g-0">
+            <div class="col-6 col-md-4">
+              <div class="bg-primary text-white p-3">
+                <h3>Colonna 1</h3>
+                <p>Larghezza intera su
+                  dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e due terzi su dispositivi grandi
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4">
+              <div class="bg-success text-white p-3">
+                <h3>Colonna 2</h3>
+                <p>Larghezza intera su
+                  dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e due terzi su dispositivi grandi
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="bg-danger text-white p-3">
+                <h3>Colonna 3</h3>
+                <p>Larghezza intera su
+                  dispositivi piccoli, metà lunghezza su
+                  dispositivi medi e due terzi su dispositivi grandi
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--                     /Row 2
+        *                         Row 3 
+         -->
       </div>
     </main>
   </body>
